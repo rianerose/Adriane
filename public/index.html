@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adriane Rosendo</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <script
+      src="https://kit.fontawesome.com/f2e2d890c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="dark:bg-black">
+    <header
+      class="sticky top-0 z-20 flex h-16 border-b border-transparent bg-customPrimary backdrop-blur dark:bg-black"
+    >
+      <div class="mx-auto w-full max-w-5x1 px-4 sm:px-8 flex">
+        <nav class="flex w-full items-center gap-6 sm:gap-9">
+          <a class="text-base font-bold">
+            <img
+              src="images/logo.png"
+              alt="logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              class="max-[480px]:h-8 max-[480px]:w-8 rounded-full"
+              style="color: transparent"
+            />
+          </a>
+          <div class="flex items-center gap-4 sm:gap-6">
+            <a
+              class="rounded hover:underline hover:font-extraBold text-white"
+              href="index.html"
+              >Home</a
+            >
+            <a
+              class="rounded hover:underline hover:font-extraBold text-white"
+              href="#"
+              >Projects</a
+            >
+            <a
+              class="rounded hover:underline hover:font-extraBold text-white"
+              href="#"
+              >About</a
+            >
+          </div>
+          <div class="ml-auto flex items-center gap-4">
+            <a
+              class="inline-flex select-none items-center justify-center rounded p-2 text-base transition -m-2"
+              href="https://github.com/rianerose"
+              target="_blank"
+              title="GitHub"
+              aria-label="GitHub"
+            >
+              <span class="inline-flex h-[1em] w-[1em] shrink-0">
+                <i class="fa fa-github text-white" aria-hidden="true"></i>
+              </span>
+            </a>
+            <button
+              onclick="toggleDarkMode()"
+              class="inline-flex select-none items-center justify-center rounded p-2 text-base transition -m-2"
+              title="Toggle dark mode"
+              aria-label="Toggle dark mode"
+            >
+              <span class="inline-flex h-[1em] w-[1em] shrink-0">
+                <i
+                  id="theme-icon"
+                  class="fa fa-moon text-white"
+                  aria-hidden="true"
+                ></i>
+              </span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="mx-auto w-full max-w-5x1 px-4 sm:px-8 pb-32">
+      <div class="flex flex-col items-start py-6 sm:py-8 pb-3 pt9 sm:pb-5">
+        <h1 class="text-4xl dark:text-white">Hi I'm Adriane Rosendo</h1>
+      </div>
+      <div class="flex flex-col items-start py-6 sm:py-8 gap-7">
+        <p class="text-base sm:text-lg dark:text-white">
+          Ano naman ilalagay ko dito HAHAHAHHA.
+        </p>
+        <a
+          class="inline-flex select-none items-center justify-center whitespace-nowrap rounded border border-transparent px-5 py-4 text-base font-bold leading-none transition bg-customPrimary text-white hover:border-black hover:bg-transparent hover:text-black dark:bg-white dark:text-black dark:hover:border-white dark:hover:bg-transparent dark:hover:text-white"
+          href="#"
+          >About me</a
+        >
+      </div>
+      <div class="flex flex-col items-start py-6 sm:py-8 gap-9">
+        <h2 class="text-2xl font-bold dark:text-white">Projects</h2>
+        <div class="flex flex-col gap-6 sm:grid sm:grid-cols-2 sm:gap-8">
+          <a class="group basis-1/2 rounded-xl border" href="#">
+            <div
+              class="bg-neutral-300 relative rounded-t-[inherit] pt-[56.4706%]"
+            >
+              <img
+                alt="Project 1"
+                loading="lazy"
+                decoding="async"
+                data-nimg="fill"
+                class="absolute inset-0 rounded-[inherit] object-cover grayscale transition-all group-hover:grayscale-0"
+                style="
+                  position: absolute;
+                  height: 100%;
+                  width: 100%;
+                  left: 0;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  color: transparent;
+                "
+                sizes="31.25rem"
+                src="images/project1.jpg"
+              />
+            </div>
+            <div class="flex flex-col gap-2 p-5">
+              <div class="mb-3 text-lg font-bold dark:text-white">
+                Project 1
+              </div>
+              <p class="text-base dark:text-white">
+                Hindi alam ilalagay hahahahhahaaaaaaaaaaaaaaaa
+              </p>
+            </div>
+          </a>
+          <a class="group basis-1/2 rounded-xl border" href="#">
+            <div
+              class="bg-neutral-300 relative rounded-t-[inherit] pt-[56.4706%]"
+            >
+              <img
+                alt="Project 1"
+                loading="lazy"
+                decoding="async"
+                data-nimg="fill"
+                class="absolute inset-0 rounded-[inherit] object-cover grayscale transition-all group-hover:grayscale-0"
+                style="
+                  position: absolute;
+                  height: 100%;
+                  width: 100%;
+                  left: 0;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  color: transparent;
+                "
+                sizes="31.25rem"
+                src="images/project1.jpg"
+              />
+            </div>
+            <div class="flex flex-col gap-2 p-5">
+              <div class="mb-3 text-lg font-bold dark:text-white">
+                Project 2
+              </div>
+              <p class="text-base dark:text-white">
+                Hindi alam ilalagay hahahahhahaaaaaaaaaaaaaaaa
+              </p>
+            </div>
+          </a>
+        </div>
+        <a
+          class="inline-flex select-none items-center justify-center whitespace-nowrap rounded border border-transparent px-5 py-4 text-base font-bold leading-none transition bg-customPrimary text-white hover:border-black hover:bg-transparent hover:text-black dark:bg-white dark:text-black dark:hover:border-white dark:hover:bg-transparent dark:hover:text-white"
+          href="#"
+          >View All</a
+        >
+      </div>
+    </main>
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+
+      function toggleDarkMode() {
+        const htmlElement = document.documentElement;
+        const themeIcon = document.getElementById("theme-icon");
+
+        const isDarkMode = htmlElement.classList.toggle("dark");
+
+        if (isDarkMode) {
+          themeIcon.classList.remove("fa-moon");
+          themeIcon.classList.add("fa-sun-o");
+          localStorage.theme = "dark";
+        } else {
+          themeIcon.classList.remove("fa-sun-o");
+          themeIcon.classList.add("fa-moon");
+          localStorage.theme = "light";
+        }
+      }
+    </script>
+  </body>
+</html>
